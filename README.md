@@ -20,6 +20,7 @@ Jade/Pug (engine padrão do gerador Express, mas não utilizado no front)
 O projeto é inteiramente funcional em ambiente local, sem banco de dados, utilizando arquivos .json como fonte de dados.
 
 🧩 Funcionalidades Desenvolvidas
+
 ✅ 1. Módulo de Comissão
 
 Leitura de vendas a partir do arquivo vendas.json.
