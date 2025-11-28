@@ -35,11 +35,17 @@ Permite lançar movimentações para qualquer produto presente no arquivo estoqu
 Cada lançamento inclui:
 
 ✔ ID único
+
 ✔ Tipo da movimentação (Entrada/Saída)
+
 ✔ Quantidade
+
 ✔ Atualização automática do estoque final
+
 ✔ Histórico de movimentações exibido em tabela
+
 ✔ Produtos carregados automaticamente
+
 
 ✅ 3. Módulo de Juros
 
