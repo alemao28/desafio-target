@@ -1,7 +1,7 @@
 Desafio Técnico – Target Sistemas
-Desenvolvedor de Sistemas Jr. – Módulo Comercial (Plantão)
+Desenvolvedor de Sistemas – Módulo Comercial (Plantão)
 
-Este repositório contém a entrega do desafio técnico solicitado pela Target Sistemas, referente à vaga de Desenvolvedor de Sistemas Jr. – Plantão (13h às 22h).
+Este repositório contém a entrega do desafio técnico solicitado pela Target Sistemas, referente à vaga de Desenvolvedor de Sistemas.
 
 O objetivo do projeto é demonstrar organização, lógica, clareza no código, boas práticas de desenvolvimento e capacidade de estruturar soluções de forma simples e eficiente.
 
