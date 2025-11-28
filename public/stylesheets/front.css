@@ -1,0 +1,130 @@
+/* === Estilo Global === */
+
+body {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+/* Container central */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background: #61dcf1;
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Links da home */
+.menu-link {
+    display: block;
+    margin-bottom: 12px;
+    padding: 12px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.menu-link:hover {
+    background: #e5e5e5;
+}
+
+/* Card padrão */
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #f3f3f3;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #333;
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-warning {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.alert-danger {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

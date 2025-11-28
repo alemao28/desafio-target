@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+process.env.TZ = 'America/Fortaleza';
 /**
  * Module dependencies.
  */

@@ -1,0 +1,65 @@
+# ==========================
+# Node.js / Express
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# PIDs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.tmp/
+.tmp_cache/
+.DS_Store
+
+# OS / Editor files
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*~
+*.bak
+*.old
+
+# Express auto-generated files
+public/uploads/
+public/temp/
+
+# System temp
+temp/
+tmp/
+
+# ==========================
+# Optional — ignoring Mac & Linux junk
+# ==========================
+*.icloud
+.DS_Store

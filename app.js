@@ -6,6 +6,9 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var commissionRouter = require("./routes/commission");
+var inventoryRouter = require("./routes/inventory");
+var interestRouter = require("./routes/interest");
 
 var app = express();
 
@@ -21,14 +24,39 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use("/api/commission", commissionRouter);
+app.use("/api/inventory", inventoryRouter);
+app.use("/api/inventory/products", inventoryRouter);
+app.use("/api/interest", interestRouter);
+
+
+
+// Rota principal
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+
+// Rotas amigáveis
+app.get("/commission", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "commission.html"));
+});
+
+app.get("/inventory", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "inventory.html"));
+});
+
+app.get("/interest", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "interest.html"));
+});
+
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
