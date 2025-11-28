@@ -19,38 +19,6 @@ Jade/Pug (engine padrão do gerador Express, mas não utilizado no front)
 
 O projeto é inteiramente funcional em ambiente local, sem banco de dados, utilizando arquivos .json como fonte de dados.
 
-📂 Estrutura do Projeto
-desafio-target/
-│
-├── bin/
-│   └── www                # Inicialização do servidor Express
-│
-├── public/
-│   ├── index.html         # Tela inicial
-│   ├── commission.html    # Módulo 1
-│   ├── inventory.html     # Módulo 2
-│   ├── interest.html      # Módulo 3
-│   ├── js/                # Scripts do front-end
-│   └── stylesheets/       # CSS global
-│
-├── routes/
-│   ├── commission.js
-│   ├── inventory.js
-│   └── interest.js
-│
-├── service/
-│   ├── commission.service.js
-│   ├── inventory.service.js
-│   └── interest.service.js
-│
-├── data/
-│   ├── vendas.json        # Dados usados para cálculo de comissão
-│   └── estoque.json       # Dados usados para movimentação de estoque
-│
-├── app.js                 # Configuração principal do Express
-├── package.json
-└── README.md
-
 🧩 Funcionalidades Desenvolvidas
 ✅ 1. Módulo de Comissão
 
@@ -71,7 +39,7 @@ Cada lançamento inclui:
 ✔ Quantidade
 ✔ Atualização automática do estoque final
 ✔ Histórico de movimentações exibido em tabela
-✔ Produtos carregados automaticamente para o <select>
+✔ Produtos carregados automaticamente
 
 ✅ 3. Módulo de Juros
 
